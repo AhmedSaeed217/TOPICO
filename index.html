@@ -1,0 +1,797 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Css Style Link  -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Font Awesome Link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <!-- Swiper Js Link  -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <title>TOPICO</title>
+    <link rel="icon" type="image/x-icon" href="imgs/logo-black.png">
+</head>
+
+<body>
+    <i class="back-top fa-solid fa-arrow-up"></i>
+    <header>
+        <div class="top-nav container">
+            <a href="index.html" class="logo">
+                <img src="imgs/logo-black.png" alt="">
+            </a>
+
+            <form class="search" action="">
+                <input type="text" placeholder="Search for products...">
+                <button type="submit">Search</button>
+            </form>
+
+            <div class="cart-item">
+                <div class="icon-cart">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    <span class="items-count">0</span>
+                </div>
+                <div class="total-price">
+                    <p>Total Cart Price</p>
+                    <p class="price-cart">$0</p>
+                </div>
+
+            </div>
+
+
+        </div>
+
+        <nav class="bottom-nav">
+            <div class="links container">
+                <i class="fa-solid fa-bars open-menu"></i>
+                <ul class="menu">
+
+                    <i class="fa-regular fa-circle-xmark close-menu"></i>
+                    <li class="active"><a href="index.html">Home</a></li>
+                    <li><a href="allproducts.html">All products</a></li>
+                    <li><a href="">About us</a></li>
+                    <li><a href="">Contact</a></li>
+                </ul>
+
+                <div class="login-sign">
+                    <a href="login.html">Login <i class="fa-solid fa-right-to-bracket"></i></a>
+                    <a href="signup.html">Sign Up <i class="fa-solid fa-user-plus"></i></a>
+                </div>
+            </div>
+        </nav>
+
+
+    </header>
+
+    <div class="cart">
+        <div class="top-cart">
+
+            <h3>My Cart <span class="cart-items-number">(0 Items in Cart)</span></h3>
+
+            <i class="close-cart fa-regular fa-circle-xmark"></i>
+
+        </div>
+        <div class="middle-cart">
+
+
+
+
+        </div>
+        <div class="bottom-cart">
+            <div class="cart-total-cost">
+                <p>Cart Subtotal</p>
+                <span class="total-cart-price"></span>
+            </div>
+            <div class="cart-btns">
+                <a href="checkout.html" class="btn-cart">Proceed to checkout</a>
+                <button class="btn-cart trans-bg">Shop more</button>
+            </div>
+        </div>
+    </div>
+
+    <section class="sidebar-slider">
+        <div class="container">
+            <div class="sidebar">
+                <h2> <i class="fa-solid fa-bars"></i> Shop By Department</h2>
+                <a href="">All Categories</a>
+                <a href="">Best Seller Prodducts</a>
+                <a href="">New Arrivals</a>
+                <a href="">Top 10 Offers</a>
+                <a href="">Phones & Tablets</a>
+                <a href="">Electronics & Digital</a>
+                <a href="">Fashion & Clothings</a>
+                <a href="">Jewelry & Watches</a>
+                <a href="">Tv & Audio</a>
+            </div>
+            <div class="slider swiper mySwiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <a href="">
+                            <img src="imgs/slider-01.jpg" alt="">
+                        </a>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <a href="">
+                            <img src="imgs/slider-02.jpg" alt="">
+                        </a>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <a href="">
+                            <img src="imgs/slider-03.jpg" alt="">
+                        </a>
+                    </div>
+
+
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+
+
+        </div>
+    </section>
+
+    <section class="features">
+        <div class="container">
+            <div class="feature">
+                <img src="imgs/features1.png" alt="">
+                <div class="feature-text">
+                    <h4>Free Shipping</h4>
+                    <p>Free shipping on all orders</p>
+                </div>
+            </div>
+
+            <div class="feature">
+                <img src="imgs/features2.png" alt="">
+                <div class="feature-text">
+                    <h4>Money Quarantee</h4>
+                    <p>30 Days Money Back Quarantee</p>
+                </div>
+            </div>
+
+            <div class="feature">
+                <img src="imgs/features3.png" alt="">
+                <div class="feature-text">
+                    <h4>Online Support 24/7</h4>
+                    <p>Technical Support Stand By</p>
+                </div>
+            </div>
+
+            <div class="feature">
+                <img src="imgs/features4.png" alt="">
+                <div class="feature-text">
+                    <h4>Secure Payment</h4>
+                    <p>All Payment Methods are accepted</p>
+                </div>
+            </div>
+
+            <div class="feature">
+                <img src="imgs/features5.png" alt="">
+                <div class="feature-text">
+                    <h4>Member Discount</h4>
+                    <p>Upto 40% Discount All Products</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="banners">
+        <div class="container">
+            <div class="banner">
+
+                <a href="">
+                    <img src="imgs/banner/banner-1.jpg" alt="">
+                </a>
+            </div>
+
+            <div class="banner">
+                <a href="">
+                    <img src="imgs/banner/banner-2.jpg" alt="">
+                </a>
+            </div>
+
+            <div class="banner">
+                <a href="">
+                    <img src="imgs/banner/banner-3.jpg" alt="">
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section class="sale">
+        <div class="container">
+            <div class="sale-content swiper slider-swiper">
+                <div class="sale-head">
+                    <h2>On Sale <span>Products</span></h2>
+                </div>
+
+                <div class="sale-products swiper-wrapper" id="sale-products-one">
+                    <!-- <div class="product swiper-slide">
+
+                    <div class="icons">
+                       <span><i class="fa-solid fa-cart-plus"></i></span> 
+                        <span><i class="fa-solid fa-share"></i></span>
+                        <span><i class="fa-solid fa-heart"></i></span>
+                    </div>
+                    <span class="sale-percentage">10%</span>
+                    <div class="product-img">
+                        <img src="imgs/product/product-1.jpg" alt="">
+                        <img class="img-hover" src="imgs/product/product1.jpg" alt="">
+                    </div>
+                    <h3 class="product-name">
+                        <a href="">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Earum, pariatur!</a>
+                    </h3>
+                    <div class="rate">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <div class="product-price">
+                        <p class="current-price">$220</p>
+                        <p class="old-price">$250</p>
+                    </div>
+                </div> -->
+
+
+
+
+
+                </div>
+
+                <div class="swiper-button-next btn-swip"></div>
+                <div class="swiper-button-prev btn-swip"></div>
+
+
+            </div>
+        </div>
+    </section>
+
+    <section class="banners banners-size-big">
+        <div class="container">
+
+            <div class="banner">
+                <a href="">
+                    <img src="imgs/banner/banner-4.jpg" alt="">
+                </a>
+            </div>
+
+            <div class="banner">
+                <a href="">
+                    <img src="imgs/banner/banner-5.jpg" alt="">
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section class="sale">
+        <div class="container">
+            <div class="sale-head">
+                <h2>Computer & Desktop <span>Products</span></h2>
+            </div>
+            <div class="products-sale-custom">
+                <div class="main-img">
+                    <a href="">
+                        <img src="imgs/banner/banner-sm-1.jpg" alt="">
+                    </a>
+                </div>
+
+                <div class="custom-swiper swiper">
+                    <div class="sale-products swiper-wrapper" id="sale-products-two">
+                        <div class="product swiper-slide">
+                            <div class="icons">
+                                <span><i class="fa-solid fa-cart-plus"></i></span>
+                                <span><i class="fa-solid fa-share"></i></span>
+                                <span><i class="fa-solid fa-heart"></i></span>
+                            </div>
+                            <span class="sale-percentage">10%</span>
+                            <div class="product-img">
+                                <img src="imgs/product/product-1.jpg" alt="">
+                                <img class="img-hover" src="imgs/product/product1.jpg" alt="">
+                            </div>
+                            <h3 class="product-name">
+                                <a href="">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Earum,
+                                    pariatur!</a>
+                            </h3>
+                            <div class="rate">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+                            <div class="product-price">
+                                <p class="current-price">$220</p>
+                                <p class="old-price">$250</p>
+                            </div>
+                        </div>
+
+                        <div class="product swiper-slide">
+                            <div class="icons">
+                                <span><i class="fa-solid fa-cart-plus"></i></span>
+                                <span><i class="fa-solid fa-share"></i></span>
+                                <span><i class="fa-solid fa-heart"></i></span>
+                            </div>
+                            <span class="sale-percentage">10%</span>
+                            <div class="product-img">
+                                <img src="imgs/product/product-1.jpg" alt="">
+                                <img class="img-hover" src="imgs/product/product1.jpg" alt="">
+                            </div>
+                            <h3 class="product-name">
+                                <a href="">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Earum,
+                                    pariatur!</a>
+                            </h3>
+                            <div class="rate">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+                            <div class="product-price">
+                                <p class="current-price">$220</p>
+                                <p class="old-price">$250</p>
+                            </div>
+                        </div>
+
+                        <div class="product swiper-slide">
+                            <div class="icons">
+                                <span><i class="fa-solid fa-cart-plus"></i></span>
+                                <span><i class="fa-solid fa-share"></i></span>
+                                <span><i class="fa-solid fa-heart"></i></span>
+                            </div>
+                            <span class="sale-percentage">10%</span>
+                            <div class="product-img">
+                                <img src="imgs/product/product-1.jpg" alt="">
+                                <img class="img-hover" src="imgs/product/product1.jpg" alt="">
+                            </div>
+                            <h3 class="product-name">
+                                <a href="">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Earum,
+                                    pariatur!</a>
+                            </h3>
+                            <div class="rate">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+                            <div class="product-price">
+                                <p class="current-price">$220</p>
+                                <p class="old-price">$250</p>
+                            </div>
+                        </div>
+
+                        <div class="product swiper-slide">
+                            <div class="icons">
+                                <span><i class="fa-solid fa-cart-plus"></i></span>
+                                <span><i class="fa-solid fa-share"></i></span>
+                                <span><i class="fa-solid fa-heart"></i></span>
+                            </div>
+                            <span class="sale-percentage">10%</span>
+                            <div class="product-img">
+                                <img src="imgs/product/product-1.jpg" alt="">
+                                <img class="img-hover" src="imgs/product/product1.jpg" alt="">
+                            </div>
+                            <h3 class="product-name">
+                                <a href="">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Earum,
+                                    pariatur!</a>
+                            </h3>
+                            <div class="rate">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+                            <div class="product-price">
+                                <p class="current-price">$220</p>
+                                <p class="old-price">$250</p>
+                            </div>
+                        </div>
+
+                        <div class="product swiper-slide">
+                            <div class="icons">
+                                <span><i class="fa-solid fa-cart-plus"></i></span>
+                                <span><i class="fa-solid fa-share"></i></span>
+                                <span><i class="fa-solid fa-heart"></i></span>
+                            </div>
+                            <span class="sale-percentage">10%</span>
+                            <div class="product-img">
+                                <img src="imgs/product/product-1.jpg" alt="">
+                                <img class="img-hover" src="imgs/product/product1.jpg" alt="">
+                            </div>
+                            <h3 class="product-name">
+                                <a href="">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Earum,
+                                    pariatur!</a>
+                            </h3>
+                            <div class="rate">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+                            <div class="product-price">
+                                <p class="current-price">$220</p>
+                                <p class="old-price">$250</p>
+                            </div>
+                        </div>
+
+                        <div class="product swiper-slide">
+                            <div class="icons">
+                                <span><i class="fa-solid fa-cart-plus"></i></span>
+                                <span><i class="fa-solid fa-share"></i></span>
+                                <span><i class="fa-solid fa-heart"></i></span>
+                            </div>
+                            <span class="sale-percentage">10%</span>
+                            <div class="product-img">
+                                <img src="imgs/product/product-1.jpg" alt="">
+                                <img class="img-hover" src="imgs/product/product1.jpg" alt="">
+                            </div>
+                            <h3 class="product-name">
+                                <a href="">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Earum,
+                                    pariatur!</a>
+                            </h3>
+                            <div class="rate">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+                            <div class="product-price">
+                                <p class="current-price">$220</p>
+                                <p class="old-price">$250</p>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+
+                </div>
+
+
+
+
+
+
+
+            </div>
+            <div class="swiper-button-next btn-swip"></div>
+            <div class="swiper-button-prev btn-swip"></div>
+        </div>
+    </section>
+
+    <section class="banners banners-size-big">
+        <div class="container">
+
+            <div class="banner">
+                <a href="">
+                    <img src="imgs/banner/banner-6.jpg" alt="">
+                </a>
+            </div>
+
+            <div class="banner">
+                <a href="">
+                    <img src="imgs/banner/banner-7.jpg" alt="">
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section class="sale">
+        <div class="container">
+            <div class="sale-head">
+                <h2>Mobile & Phone <span>Products</span></h2>
+            </div>
+            <div class="products-sale-custom">
+                <div class="custom-swiper swiper">
+                    <div class="sale-products swiper-wrapper" id="sale-products-three">
+                        <div class="product swiper-slide">
+                            <div class="icons">
+                                <span><i class="fa-solid fa-cart-plus"></i></span>
+                                <span><i class="fa-solid fa-share"></i></span>
+                                <span><i class="fa-solid fa-heart"></i></span>
+                            </div>
+                            <span class="sale-percentage">10%</span>
+                            <div class="product-img">
+                                <img src="imgs/product/product-1.jpg" alt="">
+                                <img class="img-hover" src="imgs/product/product1.jpg" alt="">
+                            </div>
+                            <h3 class="product-name">
+                                <a href="">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Earum,
+                                    pariatur!</a>
+                            </h3>
+                            <div class="rate">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+                            <div class="product-price">
+                                <p class="current-price">$220</p>
+                                <p class="old-price">$250</p>
+                            </div>
+                        </div>
+
+                        <div class="product swiper-slide">
+                            <div class="icons">
+                                <span><i class="fa-solid fa-cart-plus"></i></span>
+                                <span><i class="fa-solid fa-share"></i></span>
+                                <span><i class="fa-solid fa-heart"></i></span>
+                            </div>
+                            <span class="sale-percentage">10%</span>
+                            <div class="product-img">
+                                <img src="imgs/product/product-1.jpg" alt="">
+                                <img class="img-hover" src="imgs/product/product1.jpg" alt="">
+                            </div>
+                            <h3 class="product-name">
+                                <a href="">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Earum,
+                                    pariatur!</a>
+                            </h3>
+                            <div class="rate">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+                            <div class="product-price">
+                                <p class="current-price">$220</p>
+                                <p class="old-price">$250</p>
+                            </div>
+                        </div>
+
+                        <div class="product swiper-slide">
+                            <div class="icons">
+                                <span><i class="fa-solid fa-cart-plus"></i></span>
+                                <span><i class="fa-solid fa-share"></i></span>
+                                <span><i class="fa-solid fa-heart"></i></span>
+                            </div>
+                            <span class="sale-percentage">10%</span>
+                            <div class="product-img">
+                                <img src="imgs/product/product-1.jpg" alt="">
+                                <img class="img-hover" src="imgs/product/product1.jpg" alt="">
+                            </div>
+                            <h3 class="product-name">
+                                <a href="">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Earum,
+                                    pariatur!</a>
+                            </h3>
+                            <div class="rate">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+                            <div class="product-price">
+                                <p class="current-price">$220</p>
+                                <p class="old-price">$250</p>
+                            </div>
+                        </div>
+
+                        <div class="product swiper-slide">
+                            <div class="icons">
+                                <span><i class="fa-solid fa-cart-plus"></i></span>
+                                <span><i class="fa-solid fa-share"></i></span>
+                                <span><i class="fa-solid fa-heart"></i></span>
+                            </div>
+                            <span class="sale-percentage">10%</span>
+                            <div class="product-img">
+                                <img src="imgs/product/product-1.jpg" alt="">
+                                <img class="img-hover" src="imgs/product/product1.jpg" alt="">
+                            </div>
+                            <h3 class="product-name">
+                                <a href="">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Earum,
+                                    pariatur!</a>
+                            </h3>
+                            <div class="rate">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+                            <div class="product-price">
+                                <p class="current-price">$220</p>
+                                <p class="old-price">$250</p>
+                            </div>
+                        </div>
+
+                        <div class="product swiper-slide">
+                            <div class="icons">
+                                <span><i class="fa-solid fa-cart-plus"></i></span>
+                                <span><i class="fa-solid fa-share"></i></span>
+                                <span><i class="fa-solid fa-heart"></i></span>
+                            </div>
+                            <span class="sale-percentage">10%</span>
+                            <div class="product-img">
+                                <img src="imgs/product/product-1.jpg" alt="">
+                                <img class="img-hover" src="imgs/product/product1.jpg" alt="">
+                            </div>
+                            <h3 class="product-name">
+                                <a href="">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Earum,
+                                    pariatur!</a>
+                            </h3>
+                            <div class="rate">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+                            <div class="product-price">
+                                <p class="current-price">$220</p>
+                                <p class="old-price">$250</p>
+                            </div>
+                        </div>
+
+                        <div class="product swiper-slide">
+                            <div class="icons">
+                                <span><i class="fa-solid fa-cart-plus"></i></span>
+                                <span><i class="fa-solid fa-share"></i></span>
+                                <span><i class="fa-solid fa-heart"></i></span>
+                            </div>
+                            <span class="sale-percentage">10%</span>
+                            <div class="product-img">
+                                <img src="imgs/product/product-1.jpg" alt="">
+                                <img class="img-hover" src="imgs/product/product1.jpg" alt="">
+                            </div>
+                            <h3 class="product-name">
+                                <a href="">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Earum,
+                                    pariatur!</a>
+                            </h3>
+                            <div class="rate">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+                            <div class="product-price">
+                                <p class="current-price">$220</p>
+                                <p class="old-price">$250</p>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+
+                </div>
+
+                <div class="main-img">
+                    <a href="">
+                        <img src="imgs/banner/banner-sm-2.jpg" alt="">
+                    </a>
+                </div>
+
+
+
+
+
+
+            </div>
+            <div class="swiper-button-next btn-swip"></div>
+            <div class="swiper-button-prev btn-swip"></div>
+        </div>
+    </section>
+
+    <section class="banners">
+        <div class="container">
+            <div class="banner">
+
+                <a href="">
+                    <img src="imgs/banner/banner-6.jpg" alt="">
+                </a>
+            </div>
+
+            <div class="banner">
+                <a href="">
+                    <img src="imgs/banner/banner-7.jpg" alt="">
+                </a>
+            </div>
+
+            <div class="banner">
+                <a href="">
+                    <img src="imgs/banner/banner-8.jpg" alt="">
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section class="newsletter">
+        <div class="container">
+            <div class="newsletter-content">
+                <img src="imgs/icon_email.png" alt="">
+                <div class="content-text">
+                    <h4>Sign Up To Newsletter</h4>
+                    <p>Get email updates about our latest shop...and receive</p>
+                    <h6>$30 Coupon For First Shopping</h6>
+                </div>
+            </div>
+
+            <form action="" class="newsletter-form">
+                <input type="email" placeholder="Enter your email here...">
+                <button type="submit">subscribe</button>
+            </form>
+
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-main">
+                <img src="imgs/logo-white.png" alt="">
+                <div class="text">
+                    <i class="fa-solid fa-headset"></i>
+                    <div class="text-contact">
+                        <h4 class="hotline">Hotline Free 24/24:</h4>
+                        <h6 class="number">(+100) 123 456 789</h6>
+                    </div>
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit, placeat.</p>
+            </div>
+
+            <div class="row">
+                <h6>FAQs & Help</h6>
+                <ul class="links">
+                    <li><a href="">FAQ</a></li>
+                    <li><a href="">Ordering Tracking</a></li>
+                    <li><a href="">Contacts</a></li>
+                    <li><a href="">Events</a></li>
+                    <li><a href="">Help Center</a></li>
+                </ul>
+            </div>
+
+            <div class="row">
+                <h6>Shipping & Delivery</h6>
+                <ul class="links">
+                    <li><a href="">Delivery Information</a></li>
+                    <li><a href="">Discount</a></li>
+                    <li><a href="">Payment & Shipping</a></li>
+                    <li><a href="">Estimated Delivery Times</a></li>
+                    <li><a href="">Shipping Guide</a></li>
+                </ul>
+            </div>
+
+            <div class="row">
+                <h6>Information</h6>
+                <ul class="links">
+                    <li><a href="">Popular</a></li>
+                    <li><a href="">Our Services</a></li>
+                    <li><a href="">Your Account</a></li>
+                    <li><a href="">Privacy Policy</a></li>
+                    <li><a href="">Terms & Conditions</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container">
+                <div class="copyright">
+                    <p>Copyright &copy; <span>Topico.</span> All Rights Reserved</p>
+                </div>
+                <div class="payment">
+                    <img src="imgs/payment-1.png" alt="">
+                    <img src="imgs/payment-2.png" alt="">
+                    <img src="imgs/payment-3.png" alt="">
+                    <img src="imgs/payment-4.png" alt="">
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="js/swipper.js"></script>
+    <script src="js/home.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>

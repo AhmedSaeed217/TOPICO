@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Css Style Link  -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Font Awesome Link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <!-- Swiper Js Link  -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <title>TOPICO</title>
+    <link rel="icon" type="image/x-icon" href="imgs/logo-black.png">
+</head>
+
+<body>
+    <header>
+        <div class="top-nav container">
+            <a href="index.html" class="logo">
+                <img src="imgs/logo-black.png" alt="">
+            </a>
+
+            <form class="search" action="">
+                <input type="text" placeholder="Search for products...">
+                <button type="submit">Search</button>
+            </form>
+
+            <div class="cart-item">
+                <div class="icon-cart">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    <span class="items-count">0</span>
+                </div>
+                <div class="total-price">
+                    <p>Total Cart Price</p>
+                    <p class="price-cart">$0</p>
+                </div>
+
+            </div>
+
+
+        </div>
+
+        <nav class="bottom-nav">
+            <div class="links container">
+                <i class="fa-solid fa-bars open-menu"></i>
+                <ul class="menu">
+
+                    <i class="fa-regular fa-circle-xmark close-menu"></i>
+                    <li class="active"><a href="index.html">Home</a></li>
+                    <li><a href="allproducts.html">All products</a></li>
+                    <li><a href="">About us</a></li>
+                    <li><a href="">Contact</a></li>
+                </ul>
+
+                <div class="login-sign">
+                    <a href="login.html">Login <i class="fa-solid fa-right-to-bracket"></i></a>
+                    <a href="signup.html">Sign Up <i class="fa-solid fa-user-plus"></i></a>
+                </div>
+            </div>
+        </nav>
+
+
+    </header>
+
+    <div class="cart">
+        <div class="top-cart">
+
+            <h3>My Cart <span class="cart-items-number">(0 Items in Cart)</span></h3>
+
+            <i class="close-cart fa-regular fa-circle-xmark"></i>
+
+        </div>
+        <div class="middle-cart">
+
+
+
+
+        </div>
+        <div class="bottom-cart">
+            <div class="cart-total-cost">
+                <p>Cart Subtotal</p>
+                <span class="total-cart-price"></span>
+            </div>
+            <div class="cart-btns">
+                <a href="checkout.html" class="btn-cart">Proceed to checkout</a>
+                <button class="btn-cart trans-bg">Shop more</button>
+            </div>
+        </div>
+    </div>
+
+    <section class="products">
+        <div class="container">
+            <div class="title">
+                <h2>Experience The Future of Technology with Our Topico.</h2>
+                <p>Find everything you need to transform your home into a smart, connected space. Our Topico store
+                    offers a wide range of devices to fit your needs</p>
+            </div>
+
+            <div class="filter-products-area">
+                <div class="filter-area">
+                    <h3>Filter</h5>
+
+                        <div class="categories-filter">
+                            <h6 class="filter-category">Categories</h6>
+
+                            <div class="filter-box">
+                                <label for="phone">Phones</label>
+                                <input type="checkbox" name="phone" id="phone">
+                            </div>
+
+                            <div class="filter-box">
+                                <label for="">Tablets</label>
+                                <input type="checkbox">
+                            </div>
+
+                            <div class="filter-box">
+                                <label for="">Electronics</label>
+                                <input type="checkbox">
+                            </div>
+
+                            <div class="filter-box">
+                                <label for="">TV</label>
+                                <input type="checkbox">
+                            </div>
+
+                            <div class="filter-box">
+                                <label for="">Fashion</label>
+                                <input type="checkbox">
+                            </div>
+
+                            <div class="filter-box">
+                                <label for="">Watches</label>
+                                <input type="checkbox">
+                            </div>
+
+
+                        </div>
+
+                        <div class="brand-filter">
+                            <h6 class="filter-category">Brand</h6>
+                            <div class="filter-box">
+                                <label for="">Apple</label>
+                                <input type="checkbox">
+                            </div>
+
+                            <div class="filter-box">
+                                <label for="">Samsung</label>
+                                <input type="checkbox">
+                            </div>
+
+                            <div class="filter-box">
+                                <label for="">Intel</label>
+                                <input type="checkbox">
+                            </div>
+
+                            <div class="filter-box">
+                                <label for="">Oppo</label>
+                                <input type="checkbox">
+                            </div>
+
+                            <div class="filter-box">
+                                <label for="">Xiaomi</label>
+                                <input type="checkbox">
+                            </div>
+
+                            <div class="filter-box">
+                                <label for="">Huawei</label>
+                                <input type="checkbox">
+                            </div>
+                        </div>
+
+                        <div class="color-filter">
+                            <h6 class="filter-category">Color</h6>
+                            <div class="filter-box">
+                                <div class="red"></div>
+                                <form action="">
+                                    <input type="checkbox">
+                                </form>
+                            </div>
+
+                            <div class="filter-box">
+                                <div class="blue"></div>
+                                <form action="">
+                                    <input type="checkbox">
+                                </form>
+                            </div>
+
+                            <div class="filter-box">
+                                <div class="black"></div>
+                                <form>
+                                    <input type="checkbox">
+                                </form>
+                            </div>
+
+                            <div class="filter-box">
+                                <div class="orange"></div>
+                                <form action="">
+                                    <input type="checkbox">
+                                </form>
+                            </div>
+
+                            <div class="filter-box">
+                                <div class="green"></div>
+                                <form action="">
+                                    <input type="checkbox">
+                                </form>
+                            </div>
+
+                            <div class="filter-box">
+                                <div class="yellow"></div>
+                                <form action="">
+                                    <input type="checkbox">
+                                </form>
+                            </div>
+                        </div>
+
+
+
+                </div>
+
+
+                <div class="products-content">
+                    <div class="products-area" id="all-products">
+
+
+
+
+                    </div>
+
+                    <div class="pagination">
+                        <i class="fa-solid fa-backward-step"></i>
+                        <span class="active">1</span>
+                        <span>2</span>
+                        <span>3</span>
+                        <i class="fa-solid fa-forward-step"></i>
+                    </div>
+                </div>
+
+            </div>
+
+
+
+
+        </div>
+
+
+
+
+
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-main">
+                <img src="imgs/logo-white.png" alt="">
+                <div class="text">
+                    <i class="fa-solid fa-headset"></i>
+                    <div class="text-contact">
+                        <h4 class="hotline">Hotline Free 24/24:</h4>
+                        <h6 class="number">(+100) 123 456 789</h6>
+                    </div>
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit, placeat.</p>
+            </div>
+
+            <div class="row">
+                <h6>FAQs & Help</h6>
+                <ul class="links">
+                    <li><a href="">FAQ</a></li>
+                    <li><a href="">Ordering Tracking</a></li>
+                    <li><a href="">Contacts</a></li>
+                    <li><a href="">Events</a></li>
+                    <li><a href="">Help Center</a></li>
+                </ul>
+            </div>
+
+            <div class="row">
+                <h6>Shipping & Delivery</h6>
+                <ul class="links">
+                    <li><a href="">Delivery Information</a></li>
+                    <li><a href="">Discount</a></li>
+                    <li><a href="">Payment & Shipping</a></li>
+                    <li><a href="">Estimated Delivery Times</a></li>
+                    <li><a href="">Shipping Guide</a></li>
+                </ul>
+            </div>
+
+            <div class="row">
+                <h6>Information</h6>
+                <ul class="links">
+                    <li><a href="">Popular</a></li>
+                    <li><a href="">Our Services</a></li>
+                    <li><a href="">Your Account</a></li>
+                    <li><a href="">Privacy Policy</a></li>
+                    <li><a href="">Terms & Conditions</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container">
+                <div class="copyright">
+                    <p>Copyright &copy; <span>Topico.</span> All Rights Reserved</p>
+                </div>
+                <div class="payment">
+                    <img src="imgs/payment-1.png" alt="">
+                    <img src="imgs/payment-2.png" alt="">
+                    <img src="imgs/payment-3.png" alt="">
+                    <img src="imgs/payment-4.png" alt="">
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="js/swipper.js"></script>
+    <script src="js/home.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
